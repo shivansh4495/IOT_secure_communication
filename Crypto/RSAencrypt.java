@@ -9,9 +9,6 @@ import java.security.KeyFactory;
 import java.security.PublicKey;
 import java.security.spec.RSAPublicKeySpec;
 
-/**
- * Created by rb on 2017/11/1.
- */
 public class RSAencrypt {
 
     public static final String PUBLIC_KEY = "public.key";

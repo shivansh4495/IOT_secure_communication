@@ -8,10 +8,6 @@ import java.math.BigInteger;
 import java.security.KeyFactory;
 import java.security.PrivateKey;
 import java.security.spec.RSAPrivateKeySpec;
-
-/**
- * Created by rb on 2017/11/6.
- */
 public class RSAdecrypt {
 
     public static final String PRIVATE_KEY = "private.key";

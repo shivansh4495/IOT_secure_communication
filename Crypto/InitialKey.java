@@ -13,10 +13,6 @@ import java.sql.Statement;
 import java.util.Base64;
 
 import static java.lang.System.exit;
-
-/**
- * Created by rb on 2017/11/1.
- */
 public class InitialKey {
     private static final String PUBLIC_KEY = "public.key";
     private static final String PRIVATE_KEY = "private.key";
