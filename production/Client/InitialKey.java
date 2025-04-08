@@ -25,7 +25,7 @@ public class InitialKey {
         try{
             System.out.println("============ GENERATE PUBLIC/PRIVATE KEY ============");
             KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-            keyPairGenerator.initialize(2048); // 2048-bits
+            keyPairGenerator.initialize(4096); // 2048-bits
             KeyPair keyPair = keyPairGenerator.generateKeyPair();
             PublicKey publicKey = keyPair.getPublic();
             PrivateKey privateKey = keyPair.getPrivate();

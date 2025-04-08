@@ -16,8 +16,8 @@ public class Server {
 
         try{
             // listen for incoming connections on port 54321
-            ServerSocket socket = new ServerSocket(54321);
-            System.out.println("Server Listening on port 54321");
+            ServerSocket socket = new ServerSocket(43212);
+            System.out.println("Server Listening on port 43212");
 
             /* Pi Version : Identify source ip between PC or Pi */
 

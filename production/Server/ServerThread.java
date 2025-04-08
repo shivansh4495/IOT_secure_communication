@@ -67,7 +67,7 @@ public class ServerThread extends Thread {
                                 // connection establish
                                 String dburl = "jdbc:mysql://localhost:3306/app_project?verifyServerCertificate=false&useSSL=true&autoReconnect=true";
                                 String user = "root";
-                                String passwd = "root";
+                                String passwd = ""; // old value root
                                 Connection connection = DriverManager.getConnection(dburl, user, passwd);
                                 if (connection != null && !connection.isClosed())
                                     System.out.println("=== Server message : Database connected ===");
